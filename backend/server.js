@@ -40,7 +40,7 @@ app.use("/api/admin", adminRoutes);
 app.use("/api/employee", employeeRoutes);
 
 // Start server after database connection
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5002;
 
 const startServer = async () => {
   try {
